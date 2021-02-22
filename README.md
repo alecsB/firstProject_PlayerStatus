@@ -1,6 +1,6 @@
 # firstProject_PlayerStatus
 
-# Project Objective: 
+_Project Objective_: 
 
    > Designing and implementation of a PlayerStatus class that keeps updated the status of the player.
  
@@ -13,7 +13,7 @@
               => To win in all long distance battle cases the player needs to have a Sniper;
               => To win in all short distance battle cases the player needs to have a Kalashnikov;
 
-# General rules according to which the game is running:
+_General rules according to which the game is running_:
 
    * Health: 
          -  values between 0 and 100;
