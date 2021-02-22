@@ -2,9 +2,9 @@
 
 _Project Objective_: 
 
-   > Designing and implementation of a PlayerStatus class that keeps updated the status of the player.
+    Designing and implementation of a PlayerStatus class that keeps updated the status of the player.
  
-   > The program has the following features:
+    The program has the following features:
    
               => Creates and adds new players with custom names;
               => Players can choose their name and their weapon based on their score and points;
@@ -15,23 +15,23 @@ _Project Objective_:
 
 _General rules according to which the game is running_:
 
-   * Health: 
+    Health: 
          -  values between 0 and 100;
          -  if health is 0, number of lives will be decremented(player dies and starts again with 100 health);
          -  if health is >100, the value will be truncated to 100
           
-   * Lives:
+    Lives:
          - if value of lives is = 0, game is over, print a message for this ! ;
          
-   * Weapons: 
+    Weapons: 
          - player can have SNIPER, KALASHNIKOV, KNIFE;
          - Sniper = 10000 points, Kalashnikov = 20000 points, Knife = 1000 points;
          - the player needs a minimum of points that is equal to weapon cost;
          
-   * Coordinates of players:
+    Coordinates of players:
          - Give random coordinates for players( Ox / Oy );
          
-   * Conditions for battle mode:
+    Conditions for battle mode:
          - distance between two players(calculated using Euclidean Distance Formula);
          
                     - if players have same weapon in hand:
